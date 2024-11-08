@@ -1,0 +1,13 @@
+SSH key generation : ssh-keygen -t rsa -b 4096 -C "santosh.katiyar@gmail.com"
+
+Add the SSH Key to Your GitHub Account
+1.Log in to your GitHub account.
+2.Go to Settings > SSH and GPG keys.
+3.Click New SSH key.
+4.In the Title field, add a description for the key (e.g., "My Laptop").
+5.Paste your SSH key into the Key field.
+6.Click Add SSH key.
+
+Verifiy ssh key : ssh -T git@github.com
+
+
