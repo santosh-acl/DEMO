@@ -22,5 +22,27 @@ git push origin branch_name
 6. git remote -v
 
 7.git push origin master
+8.git checkout -b branch_name  : You can create and switch to a new branch using the following command
+  git checkout -b Demo2
+
+9.git checkout -b feature/add-new-feature :
+git checkout -b feature/add-new-Demo3
+
+git branch :shows a list of branches and marks the active one with *.
+git status : shows the active branch at the top of the output.
+git rev-parse --abbrev-ref HEAD shows the active branch's name.
+
+10.git remote show origin :Check Branch's Remote Using git remote show
+
+11.git branch -u origin/branch_name  :See Where a New Branch Was Created
+
+12.Use git branch -vv to see where each branch is tracking.
+Use git rev-parse --abbrev-ref --symbolic-full-name @{u} to check the tracking branch of the current branch.
+Use git remote show origin to see all remotes and their associated branches
+
+
+
+
+
 
 
