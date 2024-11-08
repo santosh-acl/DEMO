@@ -1,0 +1,26 @@
+pre: git init
+
+git config --global user.email "santosh.katiyar@acldigital.com"
+git config --global user.password "password"
+
+1.Navigate to the Git repository:
+Open a terminal and change to the directory where your repository is located.
+
+2.Add the file to the staging area:
+a)git add filename-particular files
+b)git add .  : all files
+
+3.Commit the changes:
+git commit -m "Add file with a description of changes"
+
+4.Push the changes to the remote repository:
+git push origin branch_name
+
+
+5.git remote add origin https://github.com/santosh-acl/DEMO.git
+
+6. git remote -v
+
+7.git push origin master
+
+
