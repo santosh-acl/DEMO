@@ -41,6 +41,14 @@ Use git rev-parse --abbrev-ref --symbolic-full-name @{u} to check the tracking b
 Use git remote show origin to see all remotes and their associated branches
 
 
+13.After creating your branch, push it to GitHub using the following command:git push origin branch_name
+
+
+14.
+
+
+
+
 
 
 
