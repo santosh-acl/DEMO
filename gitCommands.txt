@@ -44,7 +44,11 @@ Use git remote show origin to see all remotes and their associated branches
 13.After creating your branch, push it to GitHub using the following command:git push origin branch_name
 
 
-14.
+14.Copy and paste the following snippet into your .yml file.     
+
+                          - name: Starts a GitHub Self Hosted Runner 
+                uses: PasseiDireto/gh-runner-task-action@v2.1.2
+            
 
 
 
